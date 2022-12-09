@@ -1,0 +1,147 @@
+body{
+    background-image: url('bg.jpg') /*linear-gradient(to bottom right,rgba(0,16,171,0.96),rgba(57,255,243,1))*/;
+    background-size: cover;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 6rem;
+    background: -webkit-linear-gradient(left,rgba(0,16,171,0.96),rgba(57,255,243,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0%;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 1.6rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.2rem;
+    
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0%;
+    
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0%;
+    padding-top: 1rem
+}
+div{
+    float: left;
+}
+.container{
+    margin-top: 70px;
+    margin-left: 20%;
+    text-align: center;
+    height: 500px;
+    width: 325px;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 10px 10px 30px 10px rgba(31, 30, 30, 0.533);
+}
+
+.BMItable{
+    margin-top: 10em;
+    margin-bottom: 70px;
+    margin-left: 20%;
+    text-align: center;
+    height: 290px;
+    width: 300px;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 10px 10px 30px 10px rgba(31, 30, 30, 0.533);
+    display: table;
+}
+
+.description{
+    margin-top: 70px;
+    margin-left: 15%;
+    padding: 1rem;
+    text-align: left;
+    height: 470px;
+    width: 350px;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 10px 10px 30px 10px rgba(31, 30, 30, 0.533);
+}
+.download{
+    margin-top: 70px;
+    margin-left: 40%;
+    padding: 0.5rem;
+    text-align: center;
+    height: 37px;
+    width: 280px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 10px 10px 30px 10px rgba(31, 30, 30, 0.533);
+}
+input[type=number]{
+    border-radius: 25px;
+    border: 2px solid #0010abf5;
+    padding: 15px; 
+    width: 200px;
+    height: 15px;
+    font-size: large;
+}
+input[type=submit]{
+    display: inline-block;
+    margin-top: 1rem;
+    background: #0C1BA4;
+    color: white; 
+    padding: .3rem 3rem;
+    font-size: 1.5rem;
+    border: 0rem;
+    border-radius: 35px;
+}
+input[type=submit]:hover{
+    border-color: linear-gradient(to bottom right,rgba(0,16,171,0.96),rgba(57,255,243,1));
+    background: linear-gradient(to bottom right,rgba(0,16,171,0.96),rgba(57,255,243,1));
+    color: #fff;
+}
+
+button{
+    display: inline-block;
+    background: #0C1BA4;
+    color: white; 
+    margin: 0%;
+    padding: .3rem 3rem;
+    font-size: 1.5rem;
+    border: 0rem;
+    border-radius: 35px;
+}
+button:hover{
+    border-color: linear-gradient(to bottom right,rgba(0,16,171,0.96),rgba(57,255,243,1));
+    background: linear-gradient(to bottom right,rgba(0,16,171,0.96),rgba(57,255,243,1));
+    color: #fff;
+}
+/* Arrow buttons in input number field*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+    margin-bottom: 0.7rem;
+}
+
+table, th, td{   
+    border-collapse: collapse;
+    padding: 0.4rem;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: left;
+}

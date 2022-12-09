@@ -1,0 +1,68 @@
+<html> 
+    <head>
+        <link rel="stylesheet" href="style.css?version=3">
+        <title>BMI Calculator</title>
+        <link rel="icon" href="icon.jpg" type="image/icon type">
+    </head>
+    <body>
+        <div class="container">
+            <h1>BMI</h1>
+            <form action="admin.php" method="post">
+                <h2>Height:</h2>
+                <input type="number" min="0" step="0.01" name="height"id=" height" placeholder=" in cm" required 
+                oninvalid="this.setCustomValidity('Enter valid height')" oninput="this.setCustomValidity('')"
+                title=" ">
+                <h2>Weight:</h2>
+                <input type="number" min="0" step="0.01" name="weight" id="weight" placeholder=" in kg" required
+                oninvalid="this.setCustomValidity('Enter valid weight')" oninput="this.setCustomValidity('')"
+                title=" ">
+                <br>
+                <br>
+                <br>
+                <input type="submit" value="Calculate">
+            </form>
+            <h3 id="result"></h3>
+            <h4 id="res_tag"></h4>
+        </div>
+        <div class="BMItable">
+            <table>
+                <tr >
+                    <th>Category</th>
+                    <th>BMI range</th>
+                </tr>
+                <tr style="background-color:#ff0000">
+                    <td>Severe Thinness</td>
+                    <td>&lt; 16</td>
+                </tr>
+                <tr style="background-color:#ff9933">
+                    <td>Moderate Thinness</td>
+                    <td>16 - 17</td>
+                </tr>
+                <tr style="background-color:#ffcc00">
+                    <td>Mild Thinness</td>
+                    <td>17 - 18.5</td>
+                </tr>
+                <tr style="background-color:#33cc33">
+                    <td>Normal</td>
+                    <td>18.5 - 25</td>
+                </tr>
+                <tr style="background-color:#ffcc00">
+                    <td>Overweight</td>
+                    <td>25 - 30</td>
+                </tr>
+                <tr style="background-color:#ff9933">
+                    <td>Obese Class I</td>
+                    <td>30 - 35</td>
+                </tr>
+                <tr style="background-color:#ff0000">
+                    <td>Obese Class II</td>
+                    <td>35 - 40</td>
+                </tr>
+                <tr style="background-color:#b30000">
+                    <td>Obese Class III</td>
+                    <td>&gt; 40</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
